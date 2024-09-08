@@ -11,6 +11,8 @@
     <OutputPath>.</OutputPath>
     <Name>Paddle ocr</Name>
     <RootNamespace>Paddle ocr</RootNamespace>
+    <InterpreterId>
+    </InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,6 +24,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Paddle_ocr.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="requirements.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
